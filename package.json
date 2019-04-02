@@ -1,0 +1,25 @@
+{
+  "name": "fbres",
+  "version": "0.1.0",
+  "description": "a facebook research on xyz",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BastianA/fbres.git"
+  },
+  "keywords": [
+    "research",
+    "facebook",
+    "chart",
+    "visualization"
+  ],
+  "author": "Valentina Dopona, Bastian André",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/BastianA/fbres/issues"
+  },
+  "homepage": "https://github.com/BastianA/fbres#readme"
+}
