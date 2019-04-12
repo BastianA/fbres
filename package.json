@@ -2,29 +2,48 @@
   "name": "fbres",
   "version": "0.1.0",
   "description": "a facebook research on xyz",
-  "main": "index.js",
   "scripts": {
-    "test": "test"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BastianA/fbres.git"
-  },
-  "keywords": [
-    "research",
-    "facebook",
-    "chart",
-    "visualization"
-  ],
-  "author": "Valentina Dopona, Bastian André",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/BastianA/fbres/issues"
-  },
-  "homepage": "https://github.com/BastianA/fbres#readme",
   "dependencies": {
-    "google-charts": "^2.0.0",
-    "jquery-csv": "^0.8.12",
-    "p5": "^0.7.3"
-  }
+    "core-js": "^2.6.5",
+    "csv-to-array": "^1.0.2",
+    "vue": "^2.6.6",
+    "vue-google-charts": "^0.3.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
 }
